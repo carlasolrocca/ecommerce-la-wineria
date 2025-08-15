@@ -1,4 +1,6 @@
 # La Wineria
+![home](https://github.com/user-attachments/assets/91aad376-00c0-4379-a751-0a622dfea170)
+
   La Wineria es el lugar para encontrar las mejores bebidas par acompañar tus momentos únicos. Posee una selección de vinos, whiskies y espumantes. El target de clientes que manejamos está especificamente enfocado en personas con conocimiento en la materia, tales como los catadores profesionales, y los clásicos amateurs que siempre piensan en la calidad de sus bebidas.
 
 # ¿Cómo levantar el proyecto?
