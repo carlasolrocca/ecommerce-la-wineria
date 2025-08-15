@@ -1,29 +1,28 @@
 # La Wineria
   La Wineria es el lugar para encontrar las mejores bebidas par acompañar tus momentos únicos. Posee una selección de vinos, whiskies y espumantes. El target de clientes que manejamos está especificamente enfocado en personas con conocimiento en la materia, tales como los catadores profesionales, y los clásicos amateurs que siempre piensan en la calidad de sus bebidas.
 
-## Paginas referentes:
+# ¿Cómo levantar el proyecto?
+  El proyecto se puede ejecutar con una secuencia simple de pasos.
 
-1- https://vinotecaligier.com/
-2- https://frappe.com.ar/
-3- http://www.vinotecaargentina.com/
-4- https://www.craftsociety.com.ar/
-5- https://beermarket.com.ar/
-6- https://www.puroescabio.com.ar/
+  ## 1. Clonar el repositorio
+  Antes de configurar las dependencias, debemos traer el código a nuestra máquina.
+  Parados en la carpeta donde lo descargaremos, abrimos **Git Bash** y ejecutamos:
+  
+  ```
+  git clone https://github.com/tomijais/grupo_5_bebidas.git
+  cd grupo_5_bebidas
+  ```
 
-## Link al tablero de organización:
-
-https://trello.com/b/2OMgjlob/la-wineria
-
-## Equipo y reseña
-
-Carla Rocca
-- Tengo 21 años y soy estudiante de la carrera de Cs. Biologicas en la UBA.
-
- Tomas Jais
-- Tengo 18 años y deje la carrera por ahora, seguramente me anote en UTN el año que viene
-- me coparia laburar de esto para seguir aprendiendo y seguir descubriendo lo que me gusta
-
-Juan Pablo Casa
-- Tengo 37 años, estoy casado y tengo dos hermosos hijos, Alma de 8 años y Valentin de 10.
-- Trabajo desde hace 18 años en el área de RRHH de diferentes empresas. Actualmente en Cencosud S.A. (Jumbo, Easy, etc.)
-- Apasionado del fútbol, fanático de Huracan.
+  ## 2. Seleccionar la versión de Node.js apropiada
+  Asumiendo que Node.js y nvm están instalados en tu máquina, ejecutá los siguientes      comandos en la terminal:
+```
+nvm install 14
+nvm use 14
+```
+Tras ejecutar estos comandos, es recomendable reiniciar la terminal para asegurarse que la versión de Node en uso sea la correcta.
+  ## 3. Instalar las dependencias
+  Ahora que tenemos el repositorio clonado y Node configurado, debemos ejecutar ```npm install``` para instalar todas las dependencias.
+  ## 4. Ejecutar el proyecto
+  Por último, ejecutamos ```npm start``` para ejecutar el proyecto, el cual correrá en el puerto 3000.
+  
+  Accedé a localhost:3000 desde cualquier navegador para comenzar a navegar el sitio.
